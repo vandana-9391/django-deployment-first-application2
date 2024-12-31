@@ -131,6 +131,6 @@ def hi(request):
 </html>
 '''
     return HttpResponse(ss)
-   
-
+def gitview(req):
+    return HttpResponse("<h1>Hello From Git-View</h1><hr/>");    
 
